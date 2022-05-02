@@ -22,24 +22,9 @@ the scalfmm library to calculate Coulomb interactions with the Fast Multipole Me
 #  - [StarPU](http://starpu.gforge.inria.fr/) for the relevant FMM implementations.
 -->
 
-## Get and Build EnsembleMC
+## Build EnsembleMC
 
-### Cloning
 
-To use last development states of EnsembleMC, please clone the master branch.
-``` bash
-git clone git@tea.iue.tuwien.ac.at:filipov/EnsembleMC.git -b requested_branch
-```
-or
-```bash
-git clone git@tea.iue.tuwien.ac.at:filipov/EnsembleMC.git
-cd EnsembleMC
-
-``` 
-### Building
-You can do an out-of-source build by creating a `build` folder out of your clone
-
-``` bash
 mkdir build
 cd build
 # Use cmake
